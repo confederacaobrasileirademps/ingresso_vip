@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Título";
+    src: url(auto-waves.ttf);
+}
+@font-face {
+    font-family: "Texto";
+    src: url(Bisdak.ttf);
+}
+@font-face {
+    font-family: "Comprar VIP Ouro";
+    src: url(Bisdak.ttf);
+}
+
+body {
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.CBM {
+    margin-left: 37.5%;
+    width: 25%;
+    height: auto;
+}
+
+.título {
+    color: #D4AE49;
+    text-align: center;
+    font-size: 500%;
+    height: auto;
+    font-family: "Título";
+}
+
+.texto {
+    color: white;
+    text-align: center;
+    font-size: 225%;
+    height: auto;
+    font-family: "Texto";
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: #050505;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-items: center;
+  }
+  
+  .rodape ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .rodape ul li {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
